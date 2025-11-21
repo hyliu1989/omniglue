@@ -26,8 +26,8 @@ changelog = "https://github.com/google-research/omniglue/blob/main/CHANGELOG.md"
 # documentation = ""
 
 [tool.setuptools.packages.find]
-where = ["src", "third_party"]
-include = ["omniglue*", "dinov2*"]
+where = ["src", "."]
+include = ["omniglue*", "dinov2*", "third_party"]
 
 [project.optional-dependencies]
 # Development deps (unittest, linting, formating,...)
